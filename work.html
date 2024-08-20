@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Assignment Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
 </head>
+
 <body>
     <div class="work">
         <nav>
@@ -28,130 +31,199 @@
                 <button class="contact-button">Contact Us</button>
             </div>
             <div class="image-content">
-                <img src="https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg" alt="Image" class="welcome-image">
+                <img src="https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg" alt="Image"
+                    class="welcome-image">
             </div>
         </div>
     </div>
-
-    <div class="about-section">
-        <div class="about-content">
-            <div class="about-image">
-                <img src="" alt="About Image" class="about-image-img">
-            </div>
-            <div class="about-text">
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
-                <p>Another lorem ipsum paragraph to add more content and provide information.</p>
-                <button class="contact-button">Contact Us</button>
-            </div>
+    <div class="about-content min-h-[740px] bg-[#020617] text-white px-[96px] flex items-center justify-around">
+        <div class="relative border-yellow-400 border-[16px] rounded-3xl h-[502px] w-[475px]">
+            <img class="absolute rounded-3xl translate-x-5 -translate-y-8 h-[475px] w-[475px] object-cover"
+                src="https://s3-alpha-sig.figma.com/img/4e8b/acf3/effe9c555f5919a237e9011ea4e690ac?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P28mtrJMCvE1imWpktzRlzeU8~r5VMWlA4yxyOIL63bFLDuNAC4EyZmDtawvaI6XSquG0QW5sYLh4Z52Yvd7xM-PZ2EA7kyB8rLyGkw4SgnIlVAwg-~dpjvgQU5xC9Qxi2z7bpF2CYV9MtqvvsIGwWnjdvg~La3AUn7yat0tIPurYOMA-KC5m-kIPbYNcOettZOVa40IX-Qt8h5Y4AO-B3sepdNYcsOaUjItIPYHdqOMDt8Z1CVNW7kaZ4PohNzfcdCDXOEkoesTJwFupbQN9pA4MRGJMQXYoXrdBiDUKG7eWuTaw5esDs4OLYy9whY0hBl~qXEGUTmG4fs~1va1ag__"
+                alt="" />
+        </div>
+        <div class="about-text">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            <p>Another lorem ipsum paragraph to add more content and provide information.</p>
+            <button class="contact-button">Contact Us</button>
         </div>
     </div>
-
     <div class="services-section">
         <h1>My Services</h1>
         <p>There are a lot of thingy things thangs on a paragraph below.</p>
         <div class="services-content">
             <div class="service">
-                <img src="https://via.placeholder.com/100" alt="Digital Marketing Logo" class="service-logo">
+                <img src="dm.svg" alt="Digital Marketing Logo" class="service-logo">
                 <h2>Digital Marketing</h2>
-                <p>We offer comprehensive digital marketing services to help you reach your target audience and grow your business.</p>
+                <p>We offer comprehensive digital marketing services to help you reach your target audience and grow
+                    your business.</p>
             </div>
             <div class="service">
-                <img src="https://via.placeholder.com/100" alt="Web Development Logo" class="service-logo">
+                <img src="./dm.svg" alt="Web Development Logo" class="service-logo">
                 <h2>Web Development</h2>
-                <p>Our web development services include creating modern, responsive, and user-friendly websites tailored to your needs.</p>
+                <p>Our web development services include creating modern, responsive, and user-friendly websites tailored
+                    to your needs.</p>
             </div>
             <div class="service">
-                <img src="https://via.placeholder.com/100" alt="Creative Graphic Design Logo" class="service-logo">
+                <img src="gd.svg" alt="Creative Graphic Design Logo" class="service-logo">
                 <h2>Creative Graphic Design</h2>
-                <p>We provide creative graphic design solutions to help you make a lasting impression with visually appealing designs.</p>
+                <p>We provide creative graphic design solutions to help you make a lasting impression with visually
+                    appealing designs.</p>
             </div>
         </div>
     </div>
 
     <div class="portfolio-section">
         <h1>My Portfolio</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet ligula nec mauris cursus, ut interdum erat facilisis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet ligula nec mauris cursus, ut
+            interdum erat facilisis.</p>
         <div class="portfolio-content">
             <div class="large-image">
-                <img src="https://via.placeholder.com/600x400" alt="Large Portfolio Image">
+                <img src="https://s3-alpha-sig.figma.com/img/6971/2ee8/09a9186729b3923d675d5e8104763ddd?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BHPxaWYk2su9pq6auqdlowN6TR5YmrESqskkTCOeJC0VVP-F4Rti5AIA349aSNEpQcwIISCfi4aEtYlU92dYW6-6kJW2AXtNCxt4-O9rWLiVxExawQs84gXIC4qSci0M-huuWYv1wKd~lQtp8vbAntCb-tX4BuSRGB-DxbTdgvXeuZUyQmVbI6DcBpyMbea0-7R5jp2rwXPxA2X50E6tTbBhRx6zGHe4VnYPl2TBeqCLJ2cmSGO-8WllaK1u6AzKNs7seckukPl1GpQBhGKNHgcNRFi1cHztnY2IEX0BGJrFRCJr9y1FuUpKVh2asrqrICnT64JxHF7vZefkP6MjNA__" alt="Large Portfolio Image">
             </div>
             <div class="small-images">
-                <img src="https://via.placeholder.com/300x300" alt="Small Portfolio Image 1">
-                <img src="https://via.placeholder.com/300x300" alt="Small Portfolio Image 2">
-                <img src="https://via.placeholder.com/300x300" alt="Small Portfolio Image 3">
-                <img src="https://via.placeholder.com/300x300" alt="Small Portfolio Image 4">
+                <img src="https://s3-alpha-sig.figma.com/img/e581/9db6/66d04808fcaa00163063f754a34b36e3?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fkLUBKkGtM-~go-B8WxGEnx0DcyJbO1Vl9Ff4fAjPjhhbM0dICMMJLoSLbkZPEDYHzqvBrcPylI9F5tgzNTKN2YcEQsEAr6oAycb8naOly6cbIN9YChLmq3XaOdzUyW69EByO0qGBKjmqDx1r-sgiWY0g4LBOTrxyPmnc4NQ4GFRE9OPdRYGgOnTZnt6iDVdLFRgpj3u81yezUHWEamLc3ELWDVQI-iBpYfgpIXlwFhYoK3xBOTMFn57KW2prxAkdFkDr-l-gL0PonlEz4-goQ9~8Rf8zKYRguV~8-AJM0-Bz7rF5B7hKiv-YaSe9FqCw1P3fEfJx1BEnRyeBiNMcA__" alt="Small Portfolio Image 1">
+                <img src="https://s3-alpha-sig.figma.com/img/a457/5314/fe358e33ee441af098e8b8e9f9c5bf2e?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NsslvjjRIjWoX7~9LYZ5clLaLwVYfxPLYFC5FzB3-L2OVjDWdpA38X4Oi7IOGLGKMIPfAcgvtDV1n67P67ulHQQYTKr3UagMAQaEthVswNr0-ylzYbnqr8K4KgRoA-EN4ARJ0rHToAv4XrAqDhChc84JskOf1DwiEdWsaQjq5n43hBn5OR56WLMZUIrjE6srNvC75PG~-ONwUJG9zVrWhuUFQiwZFmIZJFvUfbTmu7DgfOg4tFaZh5taBU2wgoY0A8rpMsX4bZOOeb-Yuhaep6TbmRjtuRrczg5LaR8ml2xaPtGkR3IEuSnwUc7J6V7uzp3MgtgR29KpfGBOdvhZww__" alt="Small Portfolio Image 2">
+                <img src="https://s3-alpha-sig.figma.com/img/3bca/9a35/802ebd23da3a816feb316284a395c924?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Qx7tFp0gO9SHypeVfNw8-sYSoLMPcaDqfwrYqeGycGnPAs0x0BUOgLkydCUt~3aOVlsMf9D60dIuzks10~3BDuLHxokYuYTJE262zfQ7UmqxmU5MRRR0Ms-dk~a0nhk7VVttkmfWDYmphnBhXCraZH9mNcIdswF1efe-TUkTZ8e5kTRTblomuhrNaHzCOZg~5HZcai0zF1AvpGDSuyr5NG0VLfybptXo0W9dpse~34Vo-Ea6IuOsxQNeD-UwvqHL1NUnGw1rKp4DnfrLWOlpGwwg8v0geuWjQo1J5CRO05u~LX5K7i8OSogMd133NSs2DAlnvvqFQ9eZEmhiwjOtXw__" alt="Small Portfolio Image 3">
+                <img src="https://s3-alpha-sig.figma.com/img/3c23/e67f/c5e9e02c61380822e3dbc700b1cf9026?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Cs~y~dATz1puHC0ms5t0gLvbLznnm4UfHeXlu6XAmjSYCX-t14PlbZMOG~378j5qPU-FUzQK31SjzfRWWL1Hvk8EwOvKGN~yqjoNployNnGjWFffzdK7-Q-wTwk30cnm~t5J4xKaGW0WW~4yLtDYyxdBk4DaosgEgi6zsKVeRKHtBFRLS5p2uWayway87q1vAwTQhNkvUr3pj62JTeSPrPHbD14gPKKCjhLhzNGg4oBVSrBbCIycVJz01DBkiKRq9QLa-4cWSZ-9MF65L9S3X8sA16lvKW1B~WDu-5U6pF~qC8dGmCoXrYx6fwxozPEwz1k1ME92z340x5c~GcEDsQ__" alt="Small Portfolio Image 4">
             </div>
         </div>
     </div>
 
-    <div class="experiences-section">
-        <h1>My Experiences</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet ligula nec mauris cursus, ut interdum erat facilisis.</p>
-        <div class="experiences-content">
-            <div class="experience">
-                <h2>June-20</h2>
-                <h3 class="experience-title">UX-UI Designer <span>Figma</span></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis, eros non cursus suscipit, urna mi pharetra mauris.</p>
-            </div>
-            <div class="experience">
-                <h2>Jan-21</h2>
-                <h3 class="experience-title">Front-End Developer <span>React</span></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis, eros non cursus suscipit, urna mi pharetra mauris.</p>
-            </div>
-            <div class="experience">
-                <h2>Sept-21</h2>
-                <h3 class="experience-title">Product Designer <span>Sketch</span></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis, eros non cursus suscipit, urna mi pharetra mauris.</p>
-              
-            </div>
+    <div
+    class="experience bg-[#111827] min-h-[759px] py-[96px] px-[155px] flex flex-col items-center"
+  >
+    <div class="w-[1126px]">
+      <div class="w-[366px] h-[169px]">
+        <div class="flex gap-5">
+          <h1 class="text-3xl font-bold text-white">My</h1>
+          <span class="text-[#FED700] text-3xl font-bold">Experiences</span>
         </div>
+        <p class="text-gray-500 mt-11">
+          There are many variations of passages ofLorem Ipsum available, but
+          the majority havesuffered alteration in some form, by injected
+          humour,
+        </p>
+      </div>
+      <div class="flex w-full justify-center items-center` gap-[30px] mt-5">
+        <div
+          class="card w-[350px] h-[342px] bg-[#020617] p-[32px] flex flex-col justify-center items-center rounded-[12px]"
+        >
+          <p class="text-white font-semibold text-[16px]">June-2002 - 2020</p>
+          <h1 class="text-[26px] text-[#FED700] font-bold text-center mt-5">
+            UX/UI Designer
+          </h1>
+          <p class="text-white font-semibold">Figma</p>
+          <p class="text-gray-500 text-center mt-3">
+            There are many variations of passages of Lorem Ipsumav ailable,
+            but the majority have suffered alteration in some
+          </p>
+        </div>
+        <div
+          class="card w-[350px] h-[342px] bg-[#020617] p-[32px] flex flex-col justify-center items-center rounded-[12px]"
+        >
+          <p class="text-white font-semibold text-[16px]">June-2002 - 2020</p>
+          <h1 class="text-[26px] text-[#FED700] font-bold text-center mt-5">
+            Product Designer
+          </h1>
+          <p class="text-white font-semibold">Adobe Photoshop</p>
+          <p class="text-gray-500 text-center mt-3">
+            There are many variations of passages of Lorem Ipsumav ailable,
+            but the majority have suffered alteration in some
+          </p>
+        </div>
+        <div
+          class="card w-[350px] h-[342px] bg-[#020617] p-[32px] flex flex-col justify-center items-center rounded-[12px]"
+        >
+          <p class="text-white font-semibold text-[16px]">June-2002 - 2020</p>
+          <h1 class="text-[26px] text-[#FED700] font-bold text-center mt-5">
+            Graphic Designer
+          </h1>
+          <p class="text-white font-semibold">Adobe Photoshop</p>
+          <p class="text-gray-500 text-center mt-3">
+            There are many variations of passages ofLorem Ipsumavailable, but
+            the majority havesuffered alteration in some
+          </p>
+        </div>
+      </div>
     </div>
-                    <div class="contact-me-section">
-        <h1 class="contact-me-heading">
-            <span class="contact">Contact</span> <span class="me">Me</span>
+  </div>
+  <div
+  class="contactme h-[100vh] w-full bg-[#020617] py-[96px] px-[155px] flex flex-col items-center"
+>
+  <div class="w-[685px]">
+    <div
+      class="h-[142px] flex flex-col justify-center items-center w-[685px]"
+    >
+      <div class="flex gap-4">
+        <h1 class="text-3xl font-bold text-white">Contact</h1>
+        <span class="text-[#FED700] text-3xl font-bold">Me</span>
+      </div>
+      <p class="text-gray-500 mt-4 text-center">
+        There are many variations of passages ofLorem Ipsumavailable, but
+        the majority havesuffered alteration in some form, by injected
+        humour,
+      </p>
+    </div>
+    <div class="h-[352px] flex space-x-80">
+      <div class="w-[347px] flex flex-col gap-5">
+        <h1 class="text-white">
+          <span class="text-[#FED700]">Address_</span> 23 S 80 Road,
+          Benedict,ne, 68316 United States
         </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet ligula nec mauris cursus, ut interdum erat facilisis.</p>
-        <div class="contact-content">
-            <div class="contact-info">
-                <p><strong>Address:</strong> Nepal</p>
-                <p><strong>Phone:</strong> 019922</p>
-                <p><strong>Email:</strong> example@gmail.com</p>
-                <p><strong>Website:</strong> xyz.com</p>
-            </div>
-            <div class="contact-form">
-                <input type="text" placeholder="Your Name" class="contact-input">
-                <textarea placeholder="Your Message" class="contact-textarea"></textarea>
-                <button class="contact-button">Contact Us</button>
-            </div>
+        <h1 class="text-white">
+          <span class="text-[#FED700]">Phone_</span> 9849966860
+        </h1>
+        <h1 class="text-white">
+          <span class="text-[#FED700]">Email_</span>
+          biwanshrestha77@gmail.com
+        </h1>
+        <h1 class="text-white">
+          <span class="text-[#FED700]">Website_</span>
+          biwanshrestha14.com.np
+        </h1>
+      </div>
+      <div class="w-[352px]">
+        <div class="flex flex-col gap-3">
+          <input
+            class="bg-[#1F2937] text-white w-fit px-5 py-3"
+            type="text"
+            placeholder="Name"
+          />
+          <input
+            class="bg-[#1F2937] text-white text-start w-[352px] h-[166px]"
+            type="text"
+            placeholder="Message"
+          />
         </div>
+        <button
+          class="bg-[#FED700] rounded-md w-fit px-5 text-black font-semibold mt-5 py-2"
+        >
+          Contact us
+        </button>
+      </div>
     </div>
-
-    <div class="about-me-section">
-        <h1 class="about-me-heading">About Me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet ligula nec mauris cursus, ut interdum erat facilisis.</p>
-        <div class="social-links">
-            <a href="https://www.facebook.com" target="_blank" class="social-icon">
-                <img src="https://via.placeholder.com/30x30?text=F" alt="Facebook">
-            </a>
-            <a href="https://twitter.com" target="_blank" class="social-icon">
-                <img src="https://via.placeholder.com/30x30?text=T" alt="Twitter">
-            </a>
-            <a href="https://www.linkedin.com" target="_blank" class="social-icon">
-                <img src="https://via.placeholder.com/30x30?text=L" alt="LinkedIn">
-            </a>
-            <a href="https://www.instagram.com" target="_blank" class="social-icon">
-                <img src="https://via.placeholder.com/30x30?text=I" alt="Instagram">
-            </a>
-            <a href="https://www.youtube.com" target="_blank" class="social-icon">
-                <img src="https://via.placeholder.com/30x30?text=Y" alt="YouTube">
-            </a>
-            <a href="https://www.pinterest.com" target="_blank" class="social-icon">
-                <img src="https://via.placeholder.com/30x30?text=P" alt="Pinterest">
-            </a>
-        </div>
+  </div>
+  <div class="h-[320px] w-[685px]">
+    <h1 class="text-3xl font-bold mt-6 text-white text-center">AboutMe.</h1>
+    <p class="text-sm text-gray-500 mt-10 text-center">
+      There are many variations of passages ofLorem Ipsumavailable, but the
+      majority havesuffered alteration in some form,
+    </p>
+    <div class="flex gap-3 justify-center items-center mt-14">
+      <img class="h-[20px] w-[20px]" src="./assets/face.svg" alt="" />
+      <img class="h-[20px] w-[20px]" src="./assets/ig.svg" alt="" />
+      <img class="h-[20px] w-[20px]" src="./assets/linkedin.svg" alt="" />
+      <img class="h-[20px] w-[20px]" src="./assets/pin.svg" alt="" />
+      <img class="h-[20px] w-[20px]" src="./assets/twitter.svg" alt="" />
+      <img class="h-[20px] w-[20px]" src="./assets/yt.svg " alt="" />
     </div>
+  </div>
+</div>
 </body>
+
 </html>
 </body>
+
 </html>
